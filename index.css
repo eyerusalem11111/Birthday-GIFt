@@ -1,0 +1,132 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background:linear-gradient(#a2d2ff,#FFCC00);
+    color:#ffffff;
+ 
+ 
+
+}
+h1,h2,h3,h4,p{
+       text-shadow: 0px 0px 1px black;
+}
+
+#img{
+  width: 150px;        /* decrease width */
+  height: 150px;       /* decrease height */
+  object-fit: cover;   /* crop/fit image nicely */
+  border-radius: 50%; 
+  border:4px solid #EFB0C9;
+
+}
+#bday-age
+{
+  background-color: #EFB0C9;
+  padding:5px 10px ;
+  border-radius:5px;
+  margin:5px 0 10px 0;
+
+
+}
+#bday-date{
+  background-color: #EFB0C9;
+   padding:5px 10px;
+    border-radius:5px;
+  margin:5px 0 10px 0;
+}
+#header{
+
+     display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.gift1{
+  background-image: url('./Images/giftCoverImage1.jpg');
+  background-size:cover;
+  height:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:6px solid #ffffff;
+  border-radius: 10px;
+  width:400px;
+}
+
+#gift-image-happy:hover{
+  background-image:url('./Images/happyForYou.gif');
+
+}
+#gift-image-hot:hover{
+  background-image:url('./Images/hotMamy.webp') ;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto; 
+  background-repeat: no-repeat;
+  background-position: center center; /* force horizontal + vertical centering */
+  background-size: cover; 
+
+  
+
+}
+#gift-image-describe:hover{
+  background-image:url('./Images/genius1.webp') ;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto; 
+  background-repeat: no-repeat;
+  background-position: center center; /* force horizontal + vertical centering */
+  background-size: cover; 
+
+  
+
+}
+#gift-image-badass:hover{
+  background-image:url('./Images/badass.webp') ;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;  
+  background-repeat: no-repeat;
+  background-position: center center; /* force horizontal + vertical centering */
+  background-size: cover; 
+
+  
+
+}
+#gift-image-cheers:hover{
+  background-image:url('./Images/cheers.webp') ;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;  
+  background-repeat: no-repeat;
+  background-position: center center; /* force horizontal + vertical centering */
+  background-size: cover; 
+
+  
+
+}
+#gift-image-cheers{
+  height:200px;
+}
+.gift-title{
+  margin-bottom: 10px;
+}
+.gift-hint{
+  margin-top: 0;
+}
+.gift-section{
+  margin-top: 50px;
+}
+#gift-footer{
+  font-style: italic;
+  display:block;
+  margin: 40px auto 20px;
+  width:400px;
+  font-size: medium;
+ 
+
+}
+a{
+  color:white;
+
+}
